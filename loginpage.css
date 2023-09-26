@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #dddada;
+    font-family: 'Poppins', sans-serif;
+  }
+  .homepage_main_container{
+    height: 100%;
+    margin: 0;
+    display: grid;
+    margin-top: 20px;
+    background-color: #dddada;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  .homepage_ul_container ul li{
+    margin: 20px;
+    height: -20%;
+    display: grid;
+    background-color: #dddada;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+    display: flex;
+    gap:15px;
+  }
+  .homepage_ul_container ul{
+    margin-top: -100px;
+  }
+  .homepage_ul_container ul li span{
+    color: #d8340b;
+  }
+  #main-holder {
+    width: 50%;
+    height: 70%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+  }
+  
+  #login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #login-error-msg {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+  }
+  
+  #error-msg-second-line {
+    display: block;
+  }
+  
+  #login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .login-form-field::placeholder {
+    color: #3a3a3a;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .login-form-field {
+    border: none;
+    border: 1px solid #5154e2;
+    margin-bottom:20px;
+    border-radius: 10px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 35px;
+  }
+  
+  #login-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #1b0fb6;
+    cursor: pointer;
+    outline: none;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  #login-form-submit-nextpage{
+    align-items: flex-start;
+  }
+  .nextpage_button Button{
+    align-items: flex-end;
+    height: 30px;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    color: #fff;
+    background-color: #1b0fb6;
+    cursor: pointer;
+  }
+  .nextpage_button{
+    padding-left: 50px;
+  }
+
+  .gallery_container_div ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    overflow-wrap: normal;
+    gap:20px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .item_container h4{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+  }
+  .item_container img{
+    border-radius: 10px;
+  }
+  .gallery_container_div ul li{
+  list-style: none;
+  }
+  .login-img{
+    width: 80%;
+    height: 160px;
+  }
+.footer_page_details{
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+.footer_page_details p span{
+  color: #e90f0f;
+}
+@media screen and (max-width: 800px) {
+    .item_container img{
+        width: 100%;
+      }
+      .gallery_container_div ul{
+        width: 100%;
+        padding: 0;
+      }
+      .login-img{
+        width: 100%;
+        height: 100%;
+      }
+      #main-holder{
+       height: 40%;
+       padding: 0;
+       overflow: hidden;
+      }
+      #login-error-msg {
+        width: 30%;
+      }
+      body{
+        width: 100%;
+        overflow: hidden;
+      }
+  }
