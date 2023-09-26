@@ -168,28 +168,37 @@ html {
 .footer_page_details p span{
   color: #e90f0f;
 }
+.gallery_container_div{
+  overflow: scroll;
+}
 @media screen and (max-width: 800px) {
     .item_container img{
         width: 100%;
       }
       .gallery_container_div ul{
         width: 100%;
+        height: 100%;
         padding: 0;
+        overflow: scroll;
       }
       .login-img{
         width: 100%;
         height: 100%;
       }
       #main-holder{
-       height: 40%;
-       padding: 0;
-       overflow: hidden;
+        width: 80%;
+        height: 80%;
       }
       #login-error-msg {
         width: 30%;
       }
       body{
         width: 100%;
-        overflow: hidden;
+        overflow: scroll;
+      }
+      .gallery_container_div{
+        overflow: scroll;
+        width: 100%;
+        height: 100%;
       }
   }
